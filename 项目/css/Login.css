@@ -169,7 +169,9 @@ body{
     width: 70%;
     outline-style: none;
 }
-
+#shoujihao{
+    width: 75%;
+}
 
 #TripartiteLogin{
     width: 100%;
@@ -238,7 +240,6 @@ body{
     background: #363636;
     color: #959595;
     clear: both;
-    height: 200px;
     margin-top: 69px;
 }
 #button-count{
@@ -319,4 +320,89 @@ body{
 }
 #Verification-Code:hover{
     background-color: #5CAD77;
+}
+
+/* 固定定位的咨询框 */
+#consulting-service{
+    position: fixed;
+    z-index: 100;
+    transition: all 200ms ease-out;
+    right: 0;
+    top: 120px;
+}
+#service-img{
+    background-image: url(../img/咨询.png);
+    position: relative;
+    float: left;
+    margin-right: -1px;
+    width: 40px;
+    height: 166px;
+    cursor: pointer;
+}
+#service-count{
+    float: left;
+    width: 246px;
+    height: 280px;
+    border: 1px solid #ccc;
+    border-right: 0;
+    border-radius: 0 0 0 4px;
+    background-color: #fff;
+}
+#count-font{
+    width: 214px;
+    height: 128px;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+#lable{
+    margin-top: 6px;
+    padding: 2px 0;
+    line-height: 24px;
+    font-size: 12px;
+}
+#count-text{
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    width: 214px;
+    height: 24px;
+    outline-style: none;
+}
+#count-btn{
+    float: right;
+    margin-top: 10px;
+    display: inline-block;
+    height: 28px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 3px;
+    overflow: visible;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: #3f9f5f;
+    outline-style: none;
+}
+#count-btn:hover{
+    background-color: #10b041;
+}
+#hlpe{
+    position: relative;
+    top: -1px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: #dcffe2;
+    height: 24px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 12px;
+}
+#hlpe a{
+    text-decoration: none;
+}
+#hlpe a:hover{
+    text-decoration: underline;
 }

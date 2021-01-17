@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../css/Login.css">
     <link rel="shortcut icon" href="../../img/HTML-ico">
     <script src="../../js/jquery-3.3.1.min.js"></script>
+    <!-- 图标库 -->
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
@@ -122,6 +123,25 @@
             <div id="Login-rigth" class="sell-6"></div>
         </div>
     </div>
+
+    <div id="consulting-service">
+        <div id="service-img"></div>
+        <div id="service-count">
+            <form action="" method="post" style="font-size: 0;padding: 10px;">
+                <textarea placeholder="有任何意见或建议请告诉我们" id="count-font" cols="30" rows="10"></textarea>
+                <p id="hlpe">
+                    使用遇到问题？请先进入
+                    <a href="" style="color: #3f9f5f;">帮助中心</a>
+                </p>
+                <p id="lable">
+                    联系方式
+                </p>
+                <input type="text" name="" id="count-text" placeholder="请将您的邮箱或手机号码告诉我们">
+                <input type="submit" value="提交" id="count-btn">
+            </form>
+        </div>
+    </div>
+
     <div id="button">
         <div id="button-count">
             <table>
@@ -187,22 +207,32 @@
     </div>
 
     <script>
+        //隐藏咨询框（输入部分）
+        $("#service-count").hide();
         //循环用于生成随机数放在验证码框里
         for(var i=0;i<4;i++){
             suiji();
         }
+        //网页加载完成时默认显示账号登录
         $(".Login-left-top-txt").eq(0).addClass("Login-left-top-text-jq");
+        //默认把短信登录部分隐藏
         $("#Login-pohone").hide();
+        //账号登录和短信登录切换功能
         $(".Login-left-top-txt").click(function(){
+            //给账号登录或短信登录添加样式把同级的样式清除
             $(this).addClass("Login-left-top-text-jq").siblings().removeClass("Login-left-top-text-jq");
+            //获取当前元素的索引
             var item=$(this).index();
             if(item==0){
                 $("#Uid").css("border"," 1px solid #d7d7d7");
                 $("#Pwd").css("border"," 1px solid #d7d7d7");
                 $("#userName").text("");
                 $("#userPwd").text("");
+                //显示账号登录模块把同阶级的下一个元素隐藏
                 $("#Login-left-content-text").css("display","block").next().hide();
+                //添加弹性布局样式
                 $("#Login-left").addClass("sell-3");
+                //重新定义登录框的高度
                 $("#Login").css("height","435.99px");
             }
             if(item==1){
@@ -212,8 +242,11 @@
                 $("#pohone-txt").text("");
                 $("#pohone-yanzhengma").text("");
                 $("#pohone-duanxin").text("");
+                //显示短信登录模块把同阶级的上一个隐藏
                 $("#Login-pohone").css("display","block").prev().hide();
+                //把弹性伸缩率样式清除
                 $("#Login-left").removeClass("sell-3");
+                //重新定义登录框的高度
                 $("#Login").css("height","516.99px");
             }
         });
@@ -264,6 +297,11 @@
             var sum= Math.ceil(Math.random()*10)-1;
             M.value+=sum.toString()+" ";
         }
+
+        //咨询框
+        $("#service-img").click(function(){
+            $("#service-count").toggle(400);
+        });
     </script>
 </body>
 </html>
