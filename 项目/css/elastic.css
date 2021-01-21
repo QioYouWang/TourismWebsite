@@ -1,0 +1,33 @@
+.row{
+    display: flex;
+}
+.sell-1{
+    flex-grow: 1;
+}
+.sell-2{
+    flex-grow: 2;
+}
+.sell-3{
+    flex-grow: 3;
+}
+.sell-4{
+    flex-grow: 4;
+}
+.sell-5{
+    flex-grow: 5;
+}
+.sell-6{
+    flex-grow: 6;
+}
+.sell-7{
+    flex-grow: 7;
+}
+.sell-8{
+    flex-grow: 8;
+}
+.sell-9{
+    flex-grow: 9;
+}
+.sell-10{
+    flex-grow: 10;
+}

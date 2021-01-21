@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 584.333px;
+    width: 100%;
+    background-image: url("../img/HomePage.jpg");
+}
+/* 顶部导航栏 */
+#nav-top{
+    width: 100%;
+    height: 60px;
+}
+/* 顶部左边导航 */
+#nav-left{
+    float: left;
+    font-size: 14px;
+    margin-left: 18px;
+    width: 70%;
+}
+/* 顶部左边导航logo盒子 */
+#nav-left-img{
+    height: 60px;
+    float: left;
+}
+/* 顶部左边导航logo样式 */
+#nav-left-img img{
+    height: 100%;
+    vertical-align: top;
+}
+/* 顶部左边导航的li样式 */
+.nav-list{
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    width: 86px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-top: 4px;
+}
+/* 顶部右边导航的li样式 */
+.nav-list-right{
+    list-style: none;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-top: 4px;
+
+}
+/* 顶部左边、右边导航的li标签里的a样式 */
+.nav-list a,.nav-list-right a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    width: 86px;
+    height: 60px;
+}
+/* 顶部左边导航的li标签伪类 */
+.nav-list:hover,.nav-list-right:hover{
+    border-top: 4px solid #fff;
+    transition:  all 400ms ease 0ms;
+}
+/* 顶部导航二级菜单ul样式 */
+.none{
+    /* display: none; */
+    background-color: #fff;
+    width: 160px;
+}
+/* 顶部二级菜单li样式 */
+.none li{
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+}
+/* 顶部二级菜单中的a标签样式 */
+.none li a{
+    color: #979797;
+    width: 100%;
+    height: 42.2px;
+    text-align: left;
+}
+/* 顶部二级菜单伪类 */
+.none li:hover{
+    background-color: #E3FAE1;
+}
+/* 下面是二级菜单中旅行论坛的二级菜单 */
+#plate{
+    width: 600px;
+    height: 352px;
+    background-color: #fff;
+    position: relative;
+    top: -41px;
+    left: 158px;
+    padding: 12px;
+}
+#plate-top{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    color: #979797;
+}
+/* 热门板块 */
+#spanleft{
+    position: relative;
+    left: -215px;
+}
+/* 全部板块 */
+#spanright{
+    position: relative;
+    right: -200px;
+}
+/* 兴趣小组、穷游欧洲、穷游亚洲...模块 */
+#plate-count{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+#plate-count #plate-count-1 tr td{
+    width: 71px;
+}
+
+/*=================分界线=======================*/
+/* 顶部导航右边 */
+#nav-right{
+    float: right;
+    margin-right: 20px;
+}
+/* 顶部右边导航图标与字体垂直居中 */
+#nav-right img{
+    vertical-align:middle;
+    width: 24px;
+}
+
+/* 头部中间的搜索框 */
+#search-box{
+    width: 797px;
+    height: 125px;
+    margin: 200px auto;
+}
+/* 搜索框上面的文字 */
+.txt-box{
+    float: left;
+    width: 264px;
+    height: 52px;
+    text-align: center;
+    font: 300 20px/52px PingFangSC-light;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: hsla(0,0%,100%,.8);
+    transition: color .5s linear;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.75);
+}
+/* 搜索框下面操作部分 */
+#search-bottom{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+/* 用于把执行搜索操作的部分居中 */
+.search-bottom-count{
+    width: 96%;
+    margin: 0 auto;
+    display: none;
+}
+/* 搜索框input样式 */
+#search-bottom input{
+    height: 54px;
+    outline-style: none;
+}
+/* 搜索框选址样式 */
+#search-bottom #target{
+    width: 260px;
+    border-radius: 5px 0 0 5px;
+    height: 54px;
+    float: left;
+    margin-top: 12px;
+    font-size: 18px;
+}
+/* html99行的span */
+#search-bottom-span{
+    background-color: #fff;
+    display: inline-block;
+    height: 57px;
+    line-height: 56px;
+}
+/* 搜索按钮 */
+.search-bottom-submit{
+    display: inline-block;
+    margin-left: 28px;
+    width: 160px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 54px;
+    background-image: linear-gradient(90deg,#ff168f,#ff5854);
+    border: 0;
+}
+/* 看攻略的input输入框 */
+#searchid{
+    width: 71%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/* 下面是行程框内的h4+span样式 */
+#operation-xingcheng h4{
+    height: 60px;
+    display: inline;
+    font-size: 24px;
+}
+#operation-xingcheng span{
+    float: right;
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 14px;
+    width: 146px;
+    height: 46px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    line-height: 46px;
+    text-align: center;   
+}
+#operation-xingcheng span a{
+    text-decoration: none;
+}
+/*↑↑↑↑↑↑↑↑↑↑↑↑头部样式↑↑↑↑↑↑↑↑↑↑↑↑*/

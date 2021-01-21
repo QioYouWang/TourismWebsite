@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/HomePage.css">
+    <!-- 弹性伸缩比例 -->
+    <link rel="stylesheet" href="../../css/elastic.css">
+    <!-- 网页图标 -->
+    <link rel="shortcut icon" href="../../img/HTML-ico">
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <!-- 头部导航+搜索 -->
+    <header>
+        <!-- 顶部导航栏 -->
+        <div id="nav-top">
+            <!-- 顶部导航左边:logo+导航 -->
+            <div id="nav-left">
+                <div id="nav-left-img"><img src="../../img/页脚logo.png" alt=""></div>
+                <ul>
+                    <li class="nav-list"><a href="#">目的地</a></li>
+                    <li class="nav-list"><a href="#">锦囊</a></li>
+                    <li class="nav-list">
+                        <a href="#">社区</a>
+                        <ul class="none">
+                            <li>
+                                <a href="">旅行论坛</a>
+                                <div id="plate">
+                                    <div id="plate-top">
+                                        <span id="spanleft">热门板块</span>
+                                        <span id="spanright">全部板块></span>
+                                    </div>
+                                    <div id="plate-count">
+                                        <table border="1" id="plate-count-1">
+                                            <tr>
+                                                <td>兴趣小组</td>
+                                                <td></td>
+                                                <td>结伴同游</td>
+                                                <td>签证</td>
+                                                <td>旅行摄影</td>
+                                                <td>潜水俱乐部</td>
+                                                <td>带孩子旅行</td>
+                                                <td>自驾</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="">旅行问答</a></li>
+                            <li><a href="">旅行专栏</a></li>
+                            <li><a href="">旅行生活分享平台</a></li>
+                            <li><a href="">JNE旅行生活美学</a></li>
+                            <li><a href="">Biu伴（原结伴同游）</a></li>
+                            <li><a href="">负责任的旅行</a></li>
+                            <li><a href="">特别策划</a></li>
+                            <li><a href="">旅行精选视频</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list"><a href="#">行程助手</a></li>
+                    <li class="nav-list">
+                        <a href="#">商城</a>
+                        <ul class="none">
+                            <li><a href="">机酒自由行</a></li>
+                            <li><a href="">当地玩乐</a></li>
+                            <li><a href="">签证</a></li>
+                            <li><a href="">保险</a></li>
+                            <li><a href="">租车自驾</a></li>
+                            <li><a href="">邮轮</a></li>
+                            <li><a href="">私人定制</a></li>
+                            <li><a href="">欧洲铁路</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#">酒店·民宿</a>
+                        <ul class="none">
+                            <li><a href="">酒店</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list"><a href="#">特价酒店</a></li>
+                </ul>
+            </div>
+            <!-- 顶部导航右边：登录+注册+搜索 -->
+            <div id="nav-right">
+                <ul>
+                    <li class="nav-list-right"><a href=""><img src="../../img/搜索.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/home淘宝.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/QQ.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/微信.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/home微博.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href="../Login/register.html">注册</a></li>
+                    <li class="nav-list-right"><a href="../Login/Login.html">登录</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 中间搜索框 -->
+        <div id="search-box">
+            <table style=" border-collapse:collapse;">
+                <tr>
+                    <td>
+                        <div class="txt-box" id="jiudian">
+                            <span>特价酒店</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="txt-box" id="gonglue">
+                            <span>看攻略</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="txt-box" id="xingcheng">
+                            <span>做行程</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div id="search-bottom">
+
+                <div class="search-bottom-count" id="operation-jiudian">
+                    <form action="" method="post">
+                        <input type="text" name="" id="target" placeholder="搜城市/机场/地表/酒店">
+                        <input type="date" name="" id="ruzhu"><span id="search-bottom-span">——</span><input type="date" name="" id="tuifang">
+                        <input type="submit" value="搜索特价酒店" class="search-bottom-submit">
+                    </form>
+                </div>
+
+            
+                <div class="search-bottom-count" id="operation-gonglue">
+                    <input type="text" name="" id="searchid" placeholder="搜索目的地/主题攻略/问题">
+                    <input type="submit" value="搜索旅行攻略" class="search-bottom-submit">
+                </div>
+            
+
+                <div class="search-bottom-count" id="operation-xingcheng">
+                    <h4>穷游行程助手，一分钟搞定你的攻略</h4>
+                    <span style="background-color: #ffe300;"><a href="" style="color: black;">＋创建行程</a></span>
+                    <span><a href="" style="color:#fff">免费私人定制</a></span>
+                </div>
+
+            </div>       
+        </div>
+    </header>
+
+
+    <!-- 主题部分 -->
+    <section>
+
+    </section>
+
+
+    <!-- 尾部 -->
+    <footer>
+
+    </footer>
+
+    <!-- jq功能 -->
+    <script>
+        // 搜索框默认选择酒店
+        $(this).css("background-image","linear-gradient(90deg,rgba(83,144,250,.8),rgba(95,126,248,.8))").parent().siblings().find("div").css("background"," rgba(0,0,0,.75)");
+        $("#search-bottom").css("background-image","linear-gradient(90deg,rgba(83,144,250,.8),rgba(95,126,248,.8))");
+        $("#operation-jiudian").css("display","block").siblings().hide();
+        // 顶部二级菜单隐藏
+        $("#nav-left li").find("ul").css("display","none");
+
+
+        // 给顶部导航a标签绑定点击事件
+        $("#nav-left ul li a").click(function(){
+            $(this).next().stop().slideToggle(800);
+        });
+        // // 顶部导航绑定移出事件
+        // $(".none li:last-child").mouseout(function(){
+        //     $(this).parent().stop().hide(800);
+        // });
+
+
+        // 搜索框切换
+        // 酒店
+        $("#jiudian").click(function(index){
+            $(this).css("background-image","linear-gradient(90deg,rgba(83,144,250,.8),rgba(95,126,248,.8))").parent().siblings().find("div").css("background"," rgba(0,0,0,.75)");
+            $("#search-bottom").css("background-image","linear-gradient(90deg,rgba(83,144,250,.8),rgba(95,126,248,.8))");
+            $("#operation-jiudian").css("display","block").siblings().hide();
+        });
+         // 攻略
+         $("#gonglue").click(function(index){
+            $(this).css("background-image","linear-gradient(90deg,rgba(40,213,164,.8),rgba(38,208,181,.8))").parent().siblings().find("div").css("background"," rgba(0,0,0,.75)");
+            $("#search-bottom").css("background-image","linear-gradient(90deg,rgba(40,213,164,.8),rgba(38,208,181,.8))");
+            $("#operation-gonglue").css("display","block").siblings().hide();
+        });
+          // 行程
+          $("#xingcheng").click(function(index){
+            $(this).css("background-image","linear-gradient(90deg,rgba(38,208,181,.8),rgba(6,204,199,.8))").parent().siblings().find("div").css("background"," rgba(0,0,0,.75)");
+            $("#search-bottom").css("background-image","linear-gradient(90deg,rgba(38,208,181,.8),rgba(6,204,199,.8))");
+            $("#operation-xingcheng").css("display","block").siblings().hide();
+        });
+    </script>
+</body>
+</html>
