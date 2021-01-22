@@ -31,3 +31,9 @@
 .sell-10{
     flex-grow: 10;
 }
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
