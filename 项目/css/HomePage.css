@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 header{
     height: 584.333px;
     width: 100%;
@@ -521,4 +518,452 @@ header{
     url("../图标库/fonts/glyphicons-regular.svg"),
     url("../图标库/fonts/glyphicons-regular.ttf"),
     url("../图标库/fonts/glyphicons-regular.woff")
+}
+
+
+/*第三部分的样式*/
+/*主题内容的类*/
+.section{
+	position: relative;
+	padding: 20px 0;
+	min-width: 1160px;
+	font: 36px/74px Microsoft YaHei,sans-serif;
+}
+/*主题内容的标题类*/
+.section .title{
+	position: relative;
+	height: 74px;
+	color: #636363;
+	text-align: center;
+}
+/*热门游记与话题的高度*/
+.travelNotes{
+	height:  760px;
+}
+.travelNotes .item ul li{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 275px;
+	height: 290px;
+	background: #fff;
+}
+.travelNotes .item .thread{
+	position: relative;
+	line-height: 24px;
+}
+.travelNotes .item .thread .img{
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+.travelNotes .item .thread img:hover{
+	transform: scale(1.1,1.1);
+	transition: all 0.6s ease-in-out;
+}
+.travelNotes .item .thread img{
+	width: 275px;
+	height: 185px;
+}
+.travelNotes .item .thread .inner{
+	border: 1px solid #ececec;
+	border-top: 0;
+	padding: 0 15px;
+	height: 104px;
+}
+.travelNotes .item .thread .inner .caption{
+	padding-top: 12px;
+	height: 48px;
+	font: 700 16px/24px Microsoft YaHei,sans-serif;
+	overflow: hidden;
+}
+.travelNotes .item .thread .inner .caption a{
+	display: block;
+	color: #323232;
+	
+}
+.travelNotes .item .thread .inner .caption a:hover{
+	color: #2BE819;
+	transition: all 0.2s ease-in-out;
+}
+.travelNotes .slider_control{
+	margin-top: 30px;
+	font-size: 0;
+	letter-spacing: 0;
+	text-align: center;
+}
+/*滑动条的样式*/
+.travelNotes .slider_control a{
+	background: #d7d7d7;
+	border: 0;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0 5px;
+	width: 30px;
+	height: 7px;
+}
+.travelNotes .slider_control a:hover{
+	background: #20D654;
+	transition: all 0.2s ease-in-out;
+}
+/*查看更多游记*/
+.travelNotes .more{
+	text-align: center;
+}
+.travelNotes .more a{
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #ececec;
+	border-radius: 3px;
+	width: 220px;
+	height: 50px;
+	font: 20px/50px Microsoft YaHei,sans-serif;
+	background: #fff;
+	color: #636363;
+}
+.travelNotes .more a:hover{
+	box-shadow: 0 0 3px 1px #ccc;
+}
+/*穷游体验馆和策划*/
+.gray{
+	border:1px solid #ececec;
+	background: #f5f5f5;
+	margin-top: 20px;
+	overflow: hidden;
+}
+/*体验馆*/
+.experience{
+	float: left;
+}
+.experience .experience-item{
+	width: 268px;
+	height: 466px;
+	margin-bottom: 50px;
+}
+.experience .experience-item .title{
+	height: auto;
+	margin-bottom: 18px;
+	font-size: 28px;
+	line-height: 40px;
+	text-align: left;
+	color: #000;
+	font-family: sans-serif;
+}
+.experience .experience-item .item_wrap{
+	width: 268px;
+	height: 337px;
+	background: #fff;
+	overflow: hidden;
+}
+.experience .experience-item .item_wrap .img{
+	position: relative;
+	width: 100%;
+	height: 160px;
+	overflow: hidden;
+}
+.experience .experience-item .item_wrap .img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.experience .experience-item .item_wrap .info .title{
+	letter-spacing: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.experience .experience-item .item_wrap .info{
+	padding: 18px 0;
+	margin: 0 16px;
+	border-bottom: 1px solid#d8d8d8;
+}
+.experience .experience-item .item_wrap .info .title a{
+	color: #000;
+	height: auto;
+	line-height: 28px;
+	font: 20px Microsoft YaHei,sans-serif;
+	font-weight: 300;
+}
+.experience .experience-item .item_wrap .info .info-desc{
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 9px;
+	line-height: 34px;
+}
+.experience .experience-item .item_wrap .info .info-desc span{
+	display: block;
+	height: 20px;
+	font:12px/20px Microsoft YaHei,sans-serif;
+	color: #000;
+}
+.experience .experience-item .item_wrap .info .info-desc .price{
+	color: #fe7369;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+}
+/*查看详情按钮*/
+.experience .experience-item .item_wrap .info .info-desc .info-desc_btn{
+	display: block;
+	width: 100px;
+	height: 34px;
+	font: 700 16px/34px Microsoft YaHei,sans-serif;
+	text-align: center;
+	color: #fff;
+	background: #fd756a;
+}
+/*近期参与*/
+.experience .experience-item .item_wrap .user{
+	position: relative;
+	padding-left: 66px;
+	width: 186px;
+	height: 66px;
+	background: #fff;
+	overflow: hidden;
+}
+.experience .experience-item .item_wrap .user h4{
+	float: left;
+	margin-left: -66px;
+	width: 66px;
+	height: 66px;
+	font: 14px/18px Microsoft YaHei,sans-serif;
+	color: #000;
+	text-align: center;
+}
+.experience .experience-item .item_wrap .user h4 span{
+	display: block;
+	margin: 13px auto;
+	width: 2em;
+}
+/*查看往期按钮*/
+.experience .experience-item .item_btn{
+	display: block;
+	margin-top: 20px;
+	width: 268px;
+	height: 50px;
+	border: 1px solid #3cbd79;
+	color: #3cbd79;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+}
+/*特别策划*/
+.wrapper .scheme{
+	float: right;
+	width: 871px;
+	height: 446px;
+}
+.wrapper .scheme .scheme-title{
+	margin-bottom: 6px;
+	line-height: 52px;
+}
+.wrapper .scheme .scheme-title span{
+	font-size: 28px;
+	line-height: 40px;
+	margin-bottom: 18px;
+}
+/*查看全部*/
+.wrapper .scheme .scheme-title a{
+	float: right;
+	font-size: 22px;
+	color: #ccc;
+}
+/*大策划*/
+.wrapper .scheme .scheme-big{
+	float: left;
+	width: 268px;
+	height: 408px;
+}
+.wrapper .scheme .scheme-big,
+.wrapper .scheme .scheme-small .small_item{
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	font-size: 24px;
+}
+.wrapper .scheme .scheme-big div,
+.wrapper .scheme .scheme-small .small_item div{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+.wrapper .scheme .scheme-big div{
+	background-image: url(./../img/特别策划.png);
+}
+.wrapper .scheme .scheme-big div:hover{
+	background-image: url(./../img/特别策划plus.png);
+}
+/*小策划*/
+.wrapper .scheme .scheme-small{
+	float: right;
+	width: 598px;
+	font-size: 0;
+}
+.wrapper .scheme .scheme-small .small_item{
+	width: 284px;
+	height: 196px;
+	margin: 0 7.5px 16px;
+}
+.wrapper .scheme .scheme-small .small_item1{
+	background-image: url(./../img/策划1.png);
+}
+.wrapper .scheme .scheme-small .small_item1:hover{
+	background-image: url(./../img/策划1plus.png);
+}
+.wrapper .scheme .scheme-small .small_item2{
+	background-image: url(./../img/策划2.png);
+}
+.wrapper .scheme .scheme-small .small_item2:hover{
+	background-image: url(./../img/策划2plus.png);
+}
+.wrapper .scheme .scheme-small .small_item3{
+	background-image: url(./../img/策划3.png);
+}
+.wrapper .scheme .scheme-small .small_item3:hover{
+	background-image: url(./../img/策划3plus.png);
+}
+.wrapper .scheme .scheme-small .small_item4{
+	background-image: url(./../img/策划4.png);
+}
+.wrapper .scheme .scheme-small .small_item4:hover{
+	background-image: url(./../img/策划4plus.png);
+}
+/* Biu！Biu!部分 */
+.biubiu{
+    color: #000;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+/* 设置盒子为相对定位 */
+.scenery{
+    position: relative;
+    height: 2000px;
+}
+/* 设置图片 */
+.middle1 img{
+    float: left;
+    width: 270px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 15px;
+}
+/* 给图片放大 */
+.middle1 img:hover{
+    box-shadow: 0 5px 5px grey;
+    transition: all 0.6s linear 100ms;
+}
+.middle1{
+    width: 70%;
+    margin: auto;
+}
+
+/* 广告下载 */
+.advertising{
+    margin: auto;
+    width: 70%;
+}
+.advertising-app{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+/* 广告图片 */
+.advertising-app img{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+/* h2标签 */
+.advertising h2{
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 30px;
+}
+/* 尾部 */
+/* 尾部第一部分 */
+.footer-one{
+    background-color: #323232;
+    height: 250px;
+    width: 100%;
+    border-top: 4px solid green;
+    margin-top: 10px;
+}
+.footer-one ul li{
+    margin: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.footer-middle{
+    width: 70%;
+    margin: auto;
+}
+.footer-middle a{
+    color: #696363;
+}
+/* 给文字加伪类和延迟效果 */
+.footer-middle a:hover{
+    color: white;
+    transition: all 400ms linear 100ms;
+}
+.footer-middle span{
+    color: green;
+    font-size: 20px;
+    font-weight: 800;
+}
+.footer-sell{
+    color: whitesmoke;
+}
+/* 尾部第二部分 */
+.footer-bottom{
+    background-color: #242424;
+    height: 250px;
+}
+.footer-middle img{
+    width: 70px;
+    height: 50px;
+    margin-top: 20px;
+}
+.footer-middle p{
+    color: grey;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+/* 公安图标样式 */
+#footer-middle-img img{
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.footer-morebottom{
+    width: 70%;
+    margin: auto;
+}
+.footer-morebottom{
+    color: #696363;
+    margin-top: 40px;
+}
+/* 返回顶部功能 */
+#retun{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid grey;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 80px;
+    opacity: 0.8;
+    color: gray;
+    cursor: pointer;
+}
+#retun:hover{
+    background-color:#6dd27c;
+    color: #000;
 }

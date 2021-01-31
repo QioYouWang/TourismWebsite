@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .row{
     display: flex;
 }
@@ -34,6 +38,19 @@
 a{
     text-decoration: none;
 }
+ul{
+	list-style: none;
+	display: block;
+}
 ul li{
     list-style: none;
+}
+div{
+	display: block;
+}
+
+/*居中的类*/
+.wrapper{
+	margin: 0 auto;
+	width: 1180px;
 }
