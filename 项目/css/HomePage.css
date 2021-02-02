@@ -14,7 +14,7 @@ header{
     float: left;
     font-size: 14px;
     margin-left: 18px;
-    width: 70%;
+    width: 60%;
 }
 /* 顶部左边导航logo盒子 */
 #nav-left-img{
@@ -44,7 +44,7 @@ header{
     position: relative;
     height: 60px;
     line-height: 60px;
-    width: 60px;
+    width: px;
     float: left;
     text-align: center;
     cursor: pointer;
@@ -193,7 +193,7 @@ header{
 /* 搜索按钮 */
 .search-bottom-submit{
     display: inline-block;
-    margin-left: 28px;
+    margin-left: 10px;
     width: 160px;
     border-radius: 6px;
     color: #fff;
@@ -461,13 +461,18 @@ header{
     width: 80%;
     height: 380px;
     margin: 0 auto;
+}
+.qioshop__count{
+    width: 100%;
+    height: 380px;
     flex-wrap: wrap;
 }
 .qioshop__houd-h{
-    width: 375px;
+    width: 30%;
     height: 160px;
     margin-left: 15px;
-    background: #fff;
+    background: #fff; 
+    margin-left: 20px;
 }
 .qioshop__houd-h dl{
     width: 375px;
@@ -476,7 +481,7 @@ header{
 .qioshop__houd-h img{
     float: left;
     width: 43%;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 .qioshop__houd-h dd{
     color: #000;
