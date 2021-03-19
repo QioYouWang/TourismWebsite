@@ -1,0 +1,294 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    height: 30px;
+    width: 100%;
+    background-color: #323232;
+}
+/* 顶部导航栏 */
+#nav-top{
+    width: 100%;
+    height: 30px;
+}
+/* 顶部导航条logo */
+#nav-list-img{
+    display: inline-block;
+    width: 70%;
+    vertical-align: text-top;
+}
+/* 顶部左边导航 */
+#nav-left{
+    float: left;
+    font-size: 14px;
+    margin-left: 18px;
+    width: 60%;
+}
+/* 顶部左边导航logo盒子 */
+#nav-left-img{
+    height: 30px;
+    float: left;
+}
+/* 顶部左边导航logo样式 */
+#nav-left-img img{
+    height: 100%;
+    vertical-align: top;
+}
+/* 顶部左边导航的li样式 */
+.nav-list{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 86px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-top: 4px;
+}
+#nav-right{
+    float: right;
+    margin-right: 15px;
+}
+/* 顶部右边导航的li样式 */
+.nav-list-right{
+    list-style: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 26px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-top: 4px;
+    margin-left: 10px;
+}
+.nav-list-right1{
+    list-style: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 86px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-top: 4px;
+
+}
+/* 顶部左边、右边导航的li标签里的a样式 */
+.nav-list a{
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 16px;
+    display: inline-block;
+    width: 86px;
+    height: 30px;
+}
+.nav-list-right1 a:hover{
+    color: #10b041;
+}
+.nav-list-right a{
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 16px;
+    display: inline-block;
+    width: 26px;
+    height: 30px;
+}
+.nav-list-right1 a{
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 16px;
+    display: inline-block;
+    width: 86px;
+    height: 30px;
+}
+/* 顶部导航二级菜单ul样式 */
+.none{
+    display: none;
+    background-color: #fff;
+    width: 160px;
+}
+/* 顶部二级菜单li样式 */
+.none li{
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+
+}
+/* 顶部二级菜单中的a标签样式 */
+.none li a{
+    color: #979797;
+    width: 100%;
+    height: 42.2px;
+    text-align: center;
+
+}
+/* 顶部二级菜单伪类 */
+.none li:hover{
+    background-color: #E3FAE1;
+}
+/* ======================================================顶部导航条结束分界线======================================================================== */
+
+/* 背景图片 */
+
+/* ===================================================分界线================================================================= */
+.meddle{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.two img{
+    width: 214px;
+    height: 91px;
+    display: block;
+}
+.three{
+    margin: 20px;
+}
+.three ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.three input{
+    float: right;
+    margin-top: -30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid grey;
+    outline: none;
+}
+.hr{
+    width: 100%;
+    margin: 20px;
+}
+.three-rm{
+    font-weight: 800;
+}
+.three-ht{
+    font-size: 15px;
+}
+.three-ht:hover{
+    color: #10b041;
+    cursor: pointer;
+}
+.three img{
+    float: right;
+    height: 36px;
+    width: 16px;
+    top: -30px;
+    left: 180px;
+    position: relative;
+    font-size: 0;
+    margin-right: 50px;
+}
+
+.biubiu{
+    color: #000;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.biu span{
+    position: relative;
+    left: 1400px;
+    cursor: pointer;
+}
+.biu-rm{
+    color: #10b041;
+}
+.biu-rm:hover{
+    color: #000;
+}
+.biu-zr:hover{
+    color: #10b041;
+}
+/* 设置图片 */
+.middle1 img{
+    float: left;
+    width: 270px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 15px;
+}
+/* 给图片放大 */
+.middle1 img:hover{
+    box-shadow: 0 5px 5px grey;
+    transition: all 0.6s linear 100ms;
+}
+.middle1{
+    width: 70%;
+    margin: auto;
+}
+.advertising-app{
+    margin-left: 150px;
+    float: left;
+    margin-bottom: 50px;
+}
+.advertising-app a{
+    text-decoration: none;
+}
+/* 广告图片 */
+.advertising-app img{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+/* h2标签 */
+.advertising-app h2{
+    margin: 20px;
+}
+#footer{
+    width: 100%;
+    height: 120px;
+    background-color: #323232;
+    float: left;
+}
+/* 居中内容盒子 */
+#footer-count{
+    height: 50px;
+    margin-left: 500px;
+    
+}   
+#footer-count ul li{
+    float: left;
+    list-style: none;
+    margin: 0px 5px;
+    font-size: 14px;
+    color: silver;
+    margin-top: 35px;
+    cursor: pointer;
+}
+#footer-count p{
+    font-size: 12px;
+    color: #636363;
+    margin-top: 18px;
+    margin-top: 40px;
+}
+/* 返回顶部功能 */
+#retun{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid grey;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 80px;
+    opacity: 0.8;
+    color: gray;
+    cursor: pointer;
+}
+#retun:hover{
+    background-color:#6dd27c;
+    color: #000;
+}

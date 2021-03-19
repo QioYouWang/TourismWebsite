@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>签证</title>
+    <!-- 网页样式 -->
+    <link rel="stylesheet" href="../../css/visa.css">
+    <!-- 网页图标 -->
+    <link rel="shortcut icon" href="../../img/HTML-ico">
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body style="background-color: #f5f5f5;">
+    <!-- 顶部导航条 -->
+    <header>
+        <!-- 顶部导航栏 -->
+        <div id="nav-top">
+            <!-- 顶部导航左边:logo+导航 -->
+            <div id="nav-left">
+                <div id="nav-left-img"><img src="../../img/页脚logo.png" alt=""></div>
+                <ul>
+                    <li class="nav-list"><img id="nav-list-img" src="../img/穷游网顶部导航条logo.png" alt=""></li>
+                    <li class="nav-list"><a href="#">目的地</a></li>
+                    <li class="nav-list"><a href="#">锦囊</a></li>
+                    <li class="nav-list nav-list-1">
+                        <a href="#">社区</a>
+                        <ul class="none none-1">
+                            <li>
+                                <a href="">旅行论坛</a>
+                            </li>
+                            <li><a href="">旅行问答</a></li>
+                            <li><a href="">旅行专栏</a></li>
+                            <li><a href="">旅行生活分享平台</a></li>
+                            <li><a href="">JNE旅行生活美学</a></li>
+                            <li><a href="">Biu伴（原结伴同游）</a></li>
+                            <li><a href="">负责任的旅行</a></li>
+                            <li><a href="">特别策划</a></li>
+                            <li><a href="">旅行精选视频</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list"><a href="#">行程助手</a></li>
+                    <li class="nav-list nav-list-2">
+                        <a href="#">商城</a>
+                        <ul class="none none-2">
+                            <li><a href="">机酒自由行</a></li>
+                            <li><a href="">当地玩乐</a></li>
+                            <li><a href="">签证</a></li>
+                            <li><a href="">保险</a></li>
+                            <li><a href="">租车自驾</a></li>
+                            <li><a href="">邮轮</a></li>
+                            <li><a href="">私人定制</a></li>
+                            <li><a href="">欧洲铁路</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list nav-list-3">
+                        <a href="#">酒店·民宿</a>
+                        <ul class="none  none-3">
+                            <li><a href="">酒店</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list"><a href="#">特价酒店</a></li>
+                </ul>
+            </div>
+            <!-- 顶部导航右边：登录+注册+搜索 -->
+            <div id="nav-right">
+                <ul>
+                    <li class="nav-list-right"><a href=""><img src="../../img/搜索02.png" alt=""></a></li>
+                    <li class="nav-list-right" style="color: antiquewhite;">|</li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/淘宝02.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/icon-QQ02.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/微信02.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/微博02.png" alt=""></a></li>
+                    <li class="nav-list-right1"><a href="../../Login/register.html">注册</a></li>
+                    <li class="nav-list-right1"><a href="../../Login/Login.html">登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 顶部导航条下面的导航栏 -->
+    <div id="nav2">
+        <div id="nav2-count">
+            <ul>
+                <li class="count-li"><a href="">首页</a></li>
+                <li class="count-li hover">
+                    <a href="">机酒自由行</a>
+                    <ul class="count-li-Ul">
+                        <li><a href="">全部</a></li>
+                        <li><a href="">自由行</a></li>
+                        <li><a href="">优惠机票</a></li>
+                        <li><a href="">酒店</a></li>
+                        <li><a href="">邮轮</a></li>
+                        <li><a href="">定制游</a></li>
+                        <li><a href="">马尔代夫</a></li>
+                        <li><a href="">海岛游</a></li>
+                    </ul>
+                </li>
+                <li class="count-li"><a href="">优惠机票</a></li>
+                <li class="count-li hover">
+                    <a href="">跟团游</a>
+                    <ul class="count-li-Ul">
+                        <li><a href="">全部</a></li>
+                        <li><a href="">跟团游</a></li>
+                        <li><a href="">半自助游</a></li>
+                    </ul>
+                </li>
+                <li class="count-li"><a href="">酒店</a></li>
+                <li class="count-li hover">
+                    <a href="">当地玩乐</a>
+                    <ul class="count-li-Ul">
+                        <li><a href="">全部</a></li>
+                        <li><a href="">日游小团</a></li>
+                        <li><a href="">深度体验</a></li>
+                        <li><a href="">门票票卷</a></li>
+                        <li><a href="">餐饮美食</a></li>
+                        <li><a href="">WiFi电话卡</a></li>
+                        <li><a href="">购物交通票卷</a></li>
+                        <li><a href="">接送机包车</a></li>
+                        <li><a href="">保险</a></li>
+                        <li><a href="">欧洲铁路</a></li>
+                    </ul>
+                </li>
+                <li class="count-li"><a href="">签证</a></li>
+                <li class="count-li"><a href="">邮轮</a></li>
+                <li class="count-li"><a href="">保险</a></li>
+                <li class="count-li"><a href="">租车自驾</a></li>
+                <li class="count-li hover">
+                    <a href="">深度旅行</a>
+                    <ul class="count-li-Ul">
+                        <li><a href="">全部</a></li>
+                        <li><a href="">CityWalk</a></li>
+                        <li><a href="">特色长线</a></li>
+                        <li><a href="">Q-Home</a></li>
+                    </ul>
+                </li>
+                <li class="count-li"><a href="">私人定制</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 穷游商城+搜索框、订单、收藏 -->
+    <div id="QYshoping">
+        <div id="QYs-count">
+            <p id="tfont"><a href="">穷游商城</a></p>
+            <div id="sousuodiv">
+                <form action="" method="post">
+                    <table>
+                        <tr>
+                            <td><input type="text" name="" id="shurukuang" placeholder="请输入目的地/产品名称"></td>
+                            <td><input type="button" value="搜索" id="sousuo"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="My">
+                <ul>
+                    <li><a href="">我的订单</a></li>
+                    <li><a href="">我的收藏</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主体内容 -->
+    <section>
+        <div id="advertisement">
+            <div id="advertisement_left">
+                <ul>
+                    <li class="dingwei">
+                        <div class="advertisement_left_box">
+                            <h3 class="advertisement_left_box_title">亚洲</h3>
+                            <p>
+                                <a href="#">日本</a>
+                                <a href="#">泰国</a>
+                                <a href="#">马来西亚</a>
+                                <a href="#">新加坡</a>
+                                <a href="#">韩国</a>
+                            </p>
+                        </div>
+                        <div class="advertisement_left_li_nav">
+                            <h2>亚洲</h2>
+                            <p class="advertisement_left_li_nav_p">
+                                <a href="#">日本</a>
+                                <a href="#">泰国</a>
+                                <a href="#">马来西亚</a>
+                                <a href="#">新加坡</a>
+                                <a href="#">韩国</a>
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <li class="dingwei">
+                        <div class="advertisement_left_box">
+                            <h3 class="advertisement_left_box_title">欧洲</h3>
+                            <p>
+                                <a href="#">法国</a>
+                                <a href="#">意大利</a>
+                                <a href="#">土耳其</a>
+                                <a href="#">德国</a>
+                                <a href="#">西班牙</a>
+                            </p>
+                        </div>
+                        <div class="advertisement_left_li_nav">
+                            <h2>欧洲</h2>
+                            <p class="advertisement_left_li_nav_p">
+                                <a href="#">法国</a>
+                                <a href="#">意大利</a>
+                                <a href="#">土耳其</a>
+                                <a href="#">德国</a>
+                                <a href="#">西班牙</a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="dingwei">
+                        <div class="advertisement_left_box">
+                            <h3 class="advertisement_left_box_title">非洲</h3>
+                            <p>
+                                <a href="#">坦桑尼亚</a>
+                                <a href="#">南非</a>
+                                <a href="#">埃及</a>
+                                <a href="#">肯尼亚</a>
+                            </p>
+                        </div>
+                        <div class="advertisement_left_li_nav">
+                            <h2>非洲</h2>
+                            <p class="advertisement_left_li_nav_p">
+                                <a href="#">坦桑尼亚</a>
+                                <a href="#">南非</a>
+                                <a href="#">埃及</a>
+                                <a href="#">肯尼亚</a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="dingwei">
+                        <div class="advertisement_left_box">
+                            <h3 class="advertisement_left_box_title">美洲</h3>
+                            <p>
+                                <a href="#">美国</a>
+                                <a href="#">加拿大</a>
+                                <a href="#">墨西哥</a>
+                                <a href="#">巴西</a>
+                                <a href="#">阿根廷</a>
+                            </p>
+                        </div>
+                        <div class="advertisement_left_li_nav">
+                            <h2>美洲</h2>
+                            <p class="advertisement_left_li_nav_p">
+                                <a href="#">美国</a>
+                                <a href="#">加拿大</a>
+                                <a href="#">墨西哥</a>
+                                <a href="#">巴西</a>
+                                <a href="#">阿根廷</a>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="dingwei">
+                        <div class="advertisement_left_box">
+                            <h3 class="advertisement_left_box_title">大洋洲</h3>
+                            <p>
+                                <a href="#">澳大利亚</a>
+                                <a href="#">新西兰</a>
+                            </p>
+                        </div>
+                        <div class="advertisement_left_li_nav">
+                            <h2>大洋洲</h2>
+                            <p class="advertisement_left_li_nav_p">
+                                <a href="#">澳大利亚</a>
+                                <a href="#">新西兰</a>
+                            </p>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 广告下面的div；价格优惠、服务专业、高通过率 -->
+    <section>
+        <div id="section-advertisement-botton">
+            <p>
+                <img src="../../img/签证3.png" alt="">
+                <span>高通过率</span>
+            </p>
+            <p>
+                <img src="../../img/签证2.png" alt="">
+                <span>服务专业</span>
+            </p>
+            <p>
+                <img src="../../img/签证1.png" alt="">
+                <span>价格优惠</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- 热门国家和地区 -->
+    <section>
+        <div id="section_country">
+            <div>
+                <h1 id="toptitle">热门国家和地区</h1>
+            </div>            
+            <div class="section_country_Box">
+                <!-- 单个盒子 -->
+                <a href="" class="aimg">
+                    <div class="country_Box">
+                    <dl>
+                        <dt>
+                            <img src="../../img/签证地区.jpg" alt="">
+                            <div class="country_Box_btn"><span>立即抢购》</span></div>
+                        </dt>
+                        <dd class="country_Box_dd"><span class="country_Box_subject">泰国</span>  <span class="country_Box_pricetext">元起</span>  <span class="country_Box_price">249</span><span class="fuhao">￥</span></dd>
+                    </dl>
+                </div>   
+                </a>
+                <a href="">
+                     <!-- 单个盒子 -->
+                 <div class="country_Box">
+                    <dl>
+                        <dt>
+                            <img src="../../img/签证地区1.jpg" alt="" class="img_hover">
+                            <div class="country_Box_btn"><span>立即抢购》</span></div>
+                        </dt>
+                        <dd class="country_Box_dd"><span class="country_Box_subject">泰国</span>  <span class="country_Box_pricetext">元起</span>  <span class="country_Box_price">249</span><span class="fuhao">￥</span></dd>
+                    </dl>
+                </div> 
+                </a>
+                <a href="">
+                     <!-- 单个盒子 -->
+                 <div class="country_Box">
+                    <dl>
+                        <dt>
+                            <img src="../../img/签证地区2.jpg" alt="" class="img_hover">
+                            <div class="country_Box_btn"><span>立即抢购》</span></div>
+                        </dt>
+                        <dd class="country_Box_dd"><span class="country_Box_subject">泰国</span>  <span class="country_Box_pricetext">元起</span>  <span class="country_Box_price">249</span><span class="fuhao">￥</span></dd>
+                    </dl>
+                </div> 
+                </a>
+                <a href="">
+                     <!-- 单个盒子 -->
+                 <div class="country_Box">
+                    <dl>
+                        <dt>
+                            <img src="../../img/签证地区3.jpg" alt="" class="img_hover">
+                            <div class="country_Box_btn"><span>立即抢购》</span></div>
+                        </dt>
+                        <dd class="country_Box_dd"><span class="country_Box_subject">泰国</span>  <span class="country_Box_pricetext">元起</span>  <span class="country_Box_price">249</span><span class="fuhao">￥</span></dd>
+                    </dl>
+                </div>  
+                </a>
+                <a href="">
+                    <!-- 第二行 -->
+                 <!-- 单个盒子 -->
+                 <div class="country_Box">
+                    <dl>
+                        <dt>
+                            <img src="../../img/签证地区4.jpg" alt="" class="img_hover">
+                            <div class="country_Box_btn"><span>立即抢购》</span></div>
+                        </dt>
+                        <dd class="country_Box_dd"><span class="country_Box_subject">泰国</span>  <span class="country_Box_pricetext">元起</span>  <span class="country_Box_price">249</span><span class="fuhao">￥</span></dd>
+                    </dl>
+                </div>     
+                </a>
+                <a href="">
+                     <!-- 单个盒子 -->
+                 <div class="country_Box">
+                    <dl>
+                        <dt>
+                            <img src="../../img/签证地区5.jpg" alt="" class="img_hover">
+                            <div class="country_Box_btn"><span>立即抢购》</span></div>
+                        </dt>
+                        <dd class="country_Box_dd"><span class="country_Box_subject">泰国</span>  <span class="country_Box_pricetext">元起</span>  <span class="country_Box_price">249</span><span class="fuhao">￥</span></dd>
+                    </dl>
+                </div> 
+                </a>
+                <a href="">
+                     <!-- 单个盒子 -->
+                 <div class="country_Box">
+                    <dl>
+                        <dt>
+                            <img src="../../img/签证地区6.jpg" alt="" class="img_hover">
+                            <div class="country_Box_btn"><span>立即抢购》</span></div>
+                        </dt>
+                        <dd class="country_Box_dd"><span class="country_Box_subject">泰国</span>  <span class="country_Box_pricetext">元起</span>  <span class="country_Box_price">249</span><span class="fuhao">￥</span></dd>
+                    </dl>
+                </div> 
+                </a>
+                <a href="">
+                    <!-- 单个盒子 -->
+                 <div class="country_Box">
+                    <dl>
+                        <dt>
+                            <img src="../../img/签证地区7.jpg" alt="" class="img_hover">
+                            <div class="country_Box_btn"><span>立即抢购》</span></div>
+                        </dt>
+                        <dd class="country_Box_dd"><span class="country_Box_subject">泰国</span>  <span class="country_Box_pricetext">元起</span>  <span class="country_Box_price">249</span><span class="fuhao">￥</span></dd>
+                    </dl>
+                </div>
+                </a>
+                 
+            </div>
+
+            <div class="section_country_Box">
+                <table>
+                    <!-- 国旗 -->
+                    <tr>
+                        <td><img src="../../img/国旗.png" alt=""></td>
+                        <td><img src="../../img/国旗1.png" alt=""></td>
+                        <td><img src="../../img/国旗2.png" alt=""></td>
+                        <td><img src="../../img/国旗3.png" alt=""></td>
+                        <td><img src="../../img/国旗4.png" alt=""></td>
+                        <td><img src="../../img/国旗5.png" alt=""></td>
+                    </tr>
+                    <!-- 名字 -->
+                    <tr>
+                        <td>法国</td>
+                        <td>越南</td>
+                        <td>土耳其</td>
+                        <td>马来西亚</td>
+                        <td>加拿大</td>
+                        <td>德国</td>
+                    </tr>
+                    <!-- 国旗 -->
+                    <tr>
+                        <td><img src="../../img/国旗6.png" alt=""></td>
+                        <td><img src="../../img/国旗7.png" alt=""></td>
+                        <td><img src="../../img/国旗8.png" alt=""></td>
+                        <td><img src="../../img/国旗11.png" alt=""></td>
+                        <td><img src="../../img/国旗9.png" alt=""></td>
+                        <td><img src="../../img/国旗10.png" alt=""></td>
+                    </tr>
+                    <!-- 名字 -->
+                    <tr>
+                        <td>瑞士</td>
+                        <td>意大利</td>
+                        <td>希腊</td>
+                        <td>西班牙</td>
+                        <td>斯里兰卡</td>
+                        <td>新西兰</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section_country_Box">
+                <!-- 办理流程 -->
+                <div class="section_country_Box_h1">
+                    <h1>办理流程</h1>
+                </div>
+                <div id="section_country_Box-ul">
+                    <ul class="section_country_Box-ulz">
+                        <li><img src="../../img/电脑.png" alt=""></li>
+                        <li><img src="../../img/材料出库单.png" alt=""></li>
+                        <li><img src="../../img/素材库.png" alt=""></li>
+                        <li><img src="../../img/签到.png" alt=""></li>
+                        <li><img src="../../img/出闸.png" alt=""></li>
+                        <li><img src="../../img/配送.png" alt=""></li>
+                    </ul>
+                    <ul class="section_country_Box-ulzz" style="margin-top: 0px;">
+                        <li>预定/下单<span>></span></li>
+                        <li>提交材料<span>></span></li>
+                        <li>审核材料<span>></span></li>
+                        <li>送签<span>></span></li>
+                        <li>出签<span>></span></li>
+                        <li>配送</li>
+                    </ul>
+                </div>
+                <!-- 特别推荐 -->
+                <div class="section_country_Box_h1">
+                    <h1>特别推荐</h1>
+                </div>
+                <div class="section-nav-section-bottom">
+                    <ul>
+                        <li class="section-nav-section-bottom-font"><a href="">机酒自由行</a></li>
+                        <li>|</li>
+                        <li class="section-nav-section-bottom-font"><a href="">当地玩乐</a></li>
+                        <li>|</li>
+                        <li class="section-nav-section-bottom-font"><a href="">优惠机票</a></li>
+                        <li>|</li>
+                        <li class="section-nav-section-bottom-font"><a href="">签证</a></li>
+                        <li>|</li>
+                        <li class="section-nav-section-bottom-font"><a href="">邮轮</a></li>
+                        <li>|</li>
+                        <li class="section-nav-section-bottom-font"><a href="">租车自驾</a></li>
+                        <li>|</li>
+                        <li class="section-nav-section-bottom-font"><a href="">新鲜甩尾</a></li>
+                        <li>|</li>
+                        <li class="section-nav-section-bottom-font"><a href="">深度旅行</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- 页尾 -->
+     <div id="footer">
+        <div id="footer-buttom">
+            <div id="footer-top">
+                <p id="footer-top_txt_left">穷游商城</p>
+                <p id="footer-top_txt-count">
+                    从一张机票、一家酒店的订购，到一次暖心的接机服务、一张轻松融入当地的交通卡，让我们带你探索这个世界
+                </p>
+
+            </div>
+            <div id="footer-footer">
+                <div id="footer-footer-ul">
+                    <ul>
+                        <li><a href="">关于穷游商城</a></li>
+                        <li>|</li>
+                        <li>商家入驻穷游商城</li>
+                        <li>|</li>
+                        <li><a href="">服务与隐私</a></li>
+                        <li>|</li>
+                        <li><a href="">联系我们</a></li>
+                        <li>|</li>
+                        <li><a href="">旅游度假资质</a></li>
+                        <li>|</li>
+                        <li><a href="">营业执照</a></li>
+                        <li>|</li>
+                        <li><a href="">投诉建议</a></li>
+                    </ul>
+                </div>
+                <div id="footer-footer-Text">
+                    2004-2019 © 穷游网™ qyer.com All rights reserved. Version v5.57 京ICP备12003524号 京公网安备11010502023470
+                    京ICP证140673号
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 给顶部导航a标签绑移入移出击事件
+        $(".nav-list-1,.nav-list-2,.nav-list-3").mouseover(function () {
+            $(this).find("ul").css("display", "block");
+        });
+        $(".nav-list-1,.nav-list-2,.nav-list-3").mouseout(function () {
+            $(".none-1,.none-2,.none-3").css("display", "none");
+        });
+
+        // 有首页那个导航条；机酒自由行jq
+        $(".hover").mouseover(function () {
+            $(this).find("ul").css("display", "block");
+        });
+        $(".count-li-Ul,.hover").mouseout(function () {
+            $(".count-li-Ul").css("display", "none");
+        });
+
+        $(".img_hover").mousemove(function(){
+            $(this).next().css("display","block");
+        });
+        $(".country_Box_btn").mouseout(function(){
+            $(".country_Box_btn").css("display","none");
+        });
+    </script>
+
+</body>
+
+</html>

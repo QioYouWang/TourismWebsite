@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保险</title>
+    <!-- 网页样式 -->
+    <link rel="stylesheet" href="../../css/Insurance.css">
+    <!-- 网页图标 -->
+    <link rel="shortcut icon" href="../../img/HTML-ico">
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <!-- 顶部导航条 -->
+    <header>
+        <!-- 顶部导航栏 -->
+        <div id="nav-top">
+            <!-- 顶部导航左边:logo+导航 -->
+            <div id="nav-left">
+                <div id="nav-left-img"><img src="../../img/页脚logo.png" alt=""></div>
+                <ul>
+                    <li class="nav-list"><img id="nav-list-img" src="../img/穷游网顶部导航条logo.png" alt=""></li>
+                    <li class="nav-list"><a href="#">目的地</a></li>
+                    <li class="nav-list"><a href="#">锦囊</a></li>
+                    <li class="nav-list nav-list-1">
+                        <a href="#">社区</a>
+                        <ul class="none none-1">
+                            <li>
+                                <a href="">旅行论坛</a>
+                            </li>
+                            <li><a href="">旅行问答</a></li>
+                            <li><a href="">旅行专栏</a></li>
+                            <li><a href="">旅行生活分享平台</a></li>
+                            <li><a href="">JNE旅行生活美学</a></li>
+                            <li><a href="">Biu伴（原结伴同游）</a></li>
+                            <li><a href="">负责任的旅行</a></li>
+                            <li><a href="">特别策划</a></li>
+                            <li><a href="">旅行精选视频</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list"><a href="#">行程助手</a></li>
+                    <li class="nav-list nav-list-2">
+                        <a href="#">商城</a>
+                        <ul class="none none-2">
+                            <li><a href="">机酒自由行</a></li>
+                            <li><a href="">当地玩乐</a></li>
+                            <li><a href="">签证</a></li>
+                            <li><a href="">保险</a></li>
+                            <li><a href="">租车自驾</a></li>
+                            <li><a href="">邮轮</a></li>
+                            <li><a href="">私人定制</a></li>
+                            <li><a href="">欧洲铁路</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list nav-list-3">
+                        <a href="#">酒店·民宿</a>
+                        <ul class="none  none-3">
+                            <li><a href="">酒店</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-list"><a href="#">特价酒店</a></li>
+                </ul>
+            </div>
+            <!-- 顶部导航右边：登录+注册+搜索 -->
+            <div id="nav-right">
+                <ul>
+                    <li class="nav-list-right"><a href=""><img src="../../img/搜索02.png" alt=""></a></li>
+                    <li class="nav-list-right" style="color: antiquewhite;">|</li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/淘宝02.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/icon-QQ02.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/微信02.png" alt=""></a></li>
+                    <li class="nav-list-right"><a href=""><img src="../../img/微博02.png" alt=""></a></li>
+                    <li class="nav-list-right1"><a href="../../Login/register.html">注册</a></li>
+                    <li class="nav-list-right1"><a href="../../Login/Login.html">登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 顶部导航条下面的导航栏 -->
+    <div id="nav2">
+        <div id="nav2-count">
+            <ul>
+                <li class="count-li"><a href="">首页</a></li>
+                <li class="count-li hover">
+                    <a href="">机酒自由行</a>
+                    <ul class="count-li-Ul">
+                        <li><a href="">全部</a></li>
+                        <li><a href="">自由行</a></li>
+                        <li><a href="">优惠机票</a></li>
+                        <li><a href="">酒店</a></li>
+                        <li><a href="">邮轮</a></li>
+                        <li><a href="">定制游</a></li>
+                        <li><a href="">马尔代夫</a></li>
+                        <li><a href="">海岛游</a></li>
+                    </ul>
+                </li>
+                <li class="count-li"><a href="">优惠机票</a></li>
+                <li class="count-li hover">
+                    <a href="">跟团游</a>
+                    <ul class="count-li-Ul">
+                        <li><a href="">全部</a></li>
+                        <li><a href="">跟团游</a></li>
+                        <li><a href="">半自助游</a></li>
+                    </ul>
+                </li>
+                <li class="count-li"><a href="">酒店</a></li>
+                <li class="count-li hover">
+                    <a href="">当地玩乐</a>
+                    <ul class="count-li-Ul">
+                        <li><a href="">全部</a></li>
+                        <li><a href="">日游小团</a></li>
+                        <li><a href="">深度体验</a></li>
+                        <li><a href="">门票票卷</a></li>
+                        <li><a href="">餐饮美食</a></li>
+                        <li><a href="">WiFi电话卡</a></li>
+                        <li><a href="">购物交通票卷</a></li>
+                        <li><a href="">接送机包车</a></li>
+                        <li><a href="">保险</a></li>
+                        <li><a href="">欧洲铁路</a></li>
+                    </ul>
+                </li>
+                <li class="count-li"><a href="">签证</a></li>
+                <li class="count-li"><a href="">邮轮</a></li>
+                <li class="count-li"><a href="">保险</a></li>
+                <li class="count-li"><a href="">租车自驾</a></li>
+                <li class="count-li hover">
+                    <a href="">深度旅行</a>
+                    <ul class="count-li-Ul">
+                        <li><a href="">全部</a></li>
+                        <li><a href="">CityWalk</a></li>
+                        <li><a href="">特色长线</a></li>
+                        <li><a href="">Q-Home</a></li>
+                    </ul>
+                </li>
+                <li class="count-li"><a href="">私人定制</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 穷游商城+搜索框、订单、收藏 -->
+    <div id="QYshoping">
+        <div id="QYs-count">
+            <p id="tfont"><a href="">穷游商城</a></p>
+            <div id="sousuodiv">
+                <form action="" method="post">
+                    <table>
+                        <tr>
+                            <td><input type="text" name="" id="shurukuang" placeholder="请输入目的地/产品名称"></td>
+                            <td><input type="button" value="搜索" id="sousuo"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="My">
+                <ul>
+                    <li><a href="">我的订单</a></li>
+                    <li><a href="">我的收藏</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 广告 -->
+    <a href="">
+        <div class="section-toptitle"></div>
+    </a>
+
+    <!-- 购买流程 -->
+    <section>
+        <h1 id="section-title">购买流程 <span><a href="">保单查询</a></span></h1>
+        <ul id="section-title-ul">
+            <li style="margin-left: 30px;"><img src="../../img/保险.png" alt="">第一步：选择保险</li>
+            <li class="section-xiayibu_img"><img src="../../img/下一步.png" alt=""></li>
+            <li><img src="../../img/表单.png" alt="">第二步：在线填单</li>
+            <li class="section-xiayibu_img"><img src="../../img/下一步.png" alt=""></li>
+            <li><img src="../../img/支付.png" alt="">第三步：网上支付</li>
+            <li class="section-xiayibu_img"><img src="../../img/下一步.png" alt=""></li>
+            <li><img src="../../img/下载报告.png" alt="">第四步：下载保单</li>
+        </ul>
+    </section>
+
+    <section style="overflow: hidden;">
+        <!-- 综合保障 -->
+        <h1 class="section-title">综合保障</h1>
+        <div class="switch-Box">
+            <!-- 切换导航栏 -->
+            <div class="switch">
+                <ul>
+                    <li style="margin-left: 20px;">境内</li>
+                    <li>欧洲</li>
+                    <li>亚洲</li>
+                    <li>美洲</li>
+                    <li>大洋洲</li>
+                    <li>非洲</li>
+                    <li>港澳台</li>
+                    <li class="switch-right-li" style="float: right;"><a href="">查看更多</a></li>
+                </ul>
+            </div>
+            <div id="id">
+                <!-- 境内盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/旅游保险.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/旅游保险1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/旅游保险2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/旅游保障3.png" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+                <!-- 欧洲盒子盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/欧洲旅行.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/欧洲旅行1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/欧洲旅行2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/欧洲旅行3.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 亚洲盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/大洋洲.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/亚洲旅游1.png" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/亚洲旅游2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/亚洲旅游3.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+                <!-- 美洲盒子盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/美洲旅游.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/欧洲旅行1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/美洲旅游1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/美洲旅游2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 大洋洲盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/大洋洲.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/大洋洲1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/大洋洲2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/欧洲旅行2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 非洲盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/非洲旅行.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/非洲旅行1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/非洲2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/非洲旅行3.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 港澳台盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/港澳.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/港澳1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/港澳2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/亚洲旅游2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section style="overflow: hidden;">
+        <!-- 主题保障 -->
+        <h1 class="section-title">主题保障</h1>
+        <div class="switch-Box">
+            <!-- 切换导航栏 -->
+            <div class="switch-to">
+                <ul>
+                    <li style="margin-left: 20px;">境内自驾</li>
+                    <li>户外运动</li>
+                    <li>申根签证</li>
+                    <li>全年意外保险</li>
+                    <li>境外自驾</li>
+                    <li class="switch-right-li" style="float: right;"><a href="">查看更多</a></li>
+                </ul>
+            </div>
+            <div id="id-to">
+                <!-- 境内自驾盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/主题保障.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/主题保障1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/主题保障2.png" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/主题保障3.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+                <!-- 户外运动盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/旅游保障3.png" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/户外运动.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/户外运动1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/主题保障2.png" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 申根签证盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/申根签证.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/申根签证1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/申根签证2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/欧洲旅行2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+                <!-- 全年意外保险盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/意外保险.png" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/意外保险1.png" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/户外运动1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/意外保险2.png" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 境外自驾盒子 -->
+                <div class="single-switch-box">
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/欧洲旅行.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">45</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>纵横神州 - 安联境内旅行保障计划计划二</h3>
+                                </dd>
+                                <dd><span>意外医疗</span> <span>旅行延误</span><span>行李延误</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/美洲旅游1.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                                </dd>
+                                <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/美洲旅游2.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>京彩中国-安联境内旅行保障计划</h3>
+                                </dd>
+                                <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                    <!-- 单个盒子 -->
+                    <a href="#">
+                        <div class="minBox">
+                            <dl>
+                                <dt>
+                                    <img src="../../img/欧洲旅行3.jpg" alt="">
+                                    <div class="minBox_img-text">
+                                        <p>境外必备(已售 <span></span> 份)</p>
+                                        <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <h3>安联滑雪运动保障计划</h3>
+                                </dd>
+                                <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <!-- 保险精选 -->
+        <h1 class="section-title" style="margin-bottom: 20px;">保险精选</h1>
+        <div>
+            <!-- 出境游保险 -->
+            <div class="single-switch-box">
+                <!-- 单个盒子 -->
+                    <div class="section-botton-textbox">
+                        <h1>出境游保险</h1>
+                        <h4>一份保障，十分安心</h4>
+                        <ul>
+                            <li>全球紧急救援</li>
+                            <li>意外医疗保险</li>
+                            <li>旅行延误、取消补偿</li>
+                            <li>随身财物损失保障</li>
+                        </ul>
+                    </div>
+                <!-- 单个盒子 -->
+                <a href="#">
+                    <div class="minBox">
+                        <dl>
+                            <dt>
+                                <img src="../../img/旅游保险1.jpg" alt="">
+                                <div class="minBox_img-text">
+                                    <p>境外必备(已售 <span></span> 份)</p>
+                                    <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                            </dd>
+                            <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                        </dl>
+                    </div>
+                </a>
+                <!-- 单个盒子 -->
+                <a href="#">
+                    <div class="minBox">
+                        <dl>
+                            <dt>
+                                <img src="../../img/旅游保险2.jpg" alt="">
+                                <div class="minBox_img-text">
+                                    <p>境外必备(已售 <span></span> 份)</p>
+                                    <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <h3>京彩中国-安联境内旅行保障计划</h3>
+                            </dd>
+                            <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                        </dl>
+                    </div>
+                </a>
+                <!-- 单个盒子 -->
+                <a href="#">
+                    <div class="minBox">
+                        <dl>
+                            <dt>
+                                <img src="../../img/旅游保障3.png" alt="">
+                                <div class="minBox_img-text">
+                                    <p>境外必备(已售 <span></span> 份)</p>
+                                    <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <h3>安联滑雪运动保障计划</h3>
+                            </dd>
+                            <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                        </dl>
+                    </div>
+                </a>
+            </div>
+            <!-- 主题保险 -->
+            <div class="single-switch-box">
+                <!-- 单个盒子 -->
+                    <div class="section-botton-textbox" style="background-image: linear-gradient(180deg,#40dbe5,#3e87e6);">
+                        <h1>主题保险</h1>
+                        <h4>自驾、邮轮、高风险运动保障</h4>
+                        <ul>
+                            <li>跳伞、潜水、热气球、滑雪等</li>
+                            <li>热门高风险运动意外保障</li>
+                            <li>自驾车辆碰撞自付部分补偿</li>
+                            <li>邮轮港口停靠取消、变更补偿</li>
+                        </ul>
+                    </div>
+                <!-- 单个盒子 -->
+                <a href="#">
+                    <div class="minBox">
+                        <dl>
+                            <dt>
+                                <img src="../../img/旅游保险1.jpg" alt="">
+                                <div class="minBox_img-text">
+                                    <p>境外必备(已售 <span></span> 份)</p>
+                                    <p style="float:right"><span class="minBox_img-text-price">7</span>元起</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <h3>安旅中国-安联境内旅行保险计划一（自驾游）</h3>
+                            </dd>
+                            <dd><span>紧急拖车服务</span> <span>路边快修</span><span>修车期间住宿</span></dd>
+                        </dl>
+                    </div>
+                </a>
+                <!-- 单个盒子 -->
+                <a href="#">
+                    <div class="minBox">
+                        <dl>
+                            <dt>
+                                <img src="../../img/旅游保险2.jpg" alt="">
+                                <div class="minBox_img-text">
+                                    <p>境外必备(已售 <span></span> 份)</p>
+                                    <p style="float:right"><span class="minBox_img-text-price">15</span>元起</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <h3>京彩中国-安联境内旅行保障计划</h3>
+                            </dd>
+                            <dd><span>新冠隔离津贴</span> <span>新冠意外保障</span><span>意外医疗补偿</span></dd>
+                        </dl>
+                    </div>
+                </a>
+                <!-- 单个盒子 -->
+                <a href="#">
+                    <div class="minBox">
+                        <dl>
+                            <dt>
+                                <img src="../../img/旅游保障3.png" alt="">
+                                <div class="minBox_img-text">
+                                    <p>境外必备(已售 <span></span> 份)</p>
+                                    <p style="float:right"><span class="minBox_img-text-price">48</span>元起</p>
+                                </div>
+                            </dt>
+                            <dd>
+                                <h3>安联滑雪运动保障计划</h3>
+                            </dd>
+                            <dd><span>滑雪设备损失</span> <span>滑雪意外保障</span><span>行程取消</span></dd>
+                        </dl>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section>
+        <div class="section-nav-section-bottom">
+            <ul>
+                <li class="section-nav-section-bottom-font" style="margin-left: 20px;"><a href="">机酒自由行</a></li>
+                <li>|</li>
+                <li class="section-nav-section-bottom-font"><a href="">当地玩乐</a></li>
+                <li>|</li>
+                <li class="section-nav-section-bottom-font"><a href="">优惠机票</a></li>
+                <li>|</li>
+                <li class="section-nav-section-bottom-font"><a href="">签证</a></li>
+                <li>|</li>
+                <li class="section-nav-section-bottom-font"><a href="">马尔代夫</a></li>
+                <li>|</li>
+                <li class="section-nav-section-bottom-font"><a href="">邮轮</a></li>
+                <li>|</li>
+                <li class="section-nav-section-bottom-font"><a href="">租车自驾</a></li>
+                <li>|</li>
+                <li class="section-nav-section-bottom-font"><a href="">新鲜甩尾</a></li>
+                <li>|</li>
+                <li class="section-nav-section-bottom-font"><a href="">深度旅行</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+    <!-- 页尾 -->
+    <div id="footer">
+        <div id="footer-buttom">
+            <div id="footer-top">
+                <p id="footer-top_txt_left">穷游商城</p>
+                <p id="footer-top_txt-count">
+                    从一张机票、一家酒店的订购，到一次暖心的接机服务、一张轻松融入当地的交通卡，让我们带你探索这个世界
+                </p>
+
+            </div>
+            <div id="footer-footer">
+                <div id="footer-footer-ul">
+                    <ul>
+                        <li><a href="">关于穷游商城</a></li>
+                        <li>|</li>
+                        <li>商家入驻穷游商城</li>
+                        <li>|</li>
+                        <li><a href="">服务与隐私</a></li>
+                        <li>|</li>
+                        <li><a href="">联系我们</a></li>
+                        <li>|</li>
+                        <li><a href="">旅游度假资质</a></li>
+                        <li>|</li>
+                        <li><a href="">营业执照</a></li>
+                        <li>|</li>
+                        <li><a href="">投诉建议</a></li>
+                    </ul>
+                </div>
+                <div id="footer-footer-Text">
+                    2004-2019 © 穷游网™ qyer.com All rights reserved. Version v5.57 京ICP备12003524号 京公网安备11010502023470
+                    京ICP证140673号
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 给顶部导航a标签绑移入移出击事件
+        $(".nav-list-1,.nav-list-2,.nav-list-3").mouseover(function () {
+            $(this).find("ul").css("display", "block");
+        });
+        $(".nav-list-1,.nav-list-2,.nav-list-3").mouseout(function () {
+            $(".none-1,.none-2,.none-3").css("display", "none");
+        });
+
+        // 有首页那个导航条；机酒自由行jq
+        $(".hover").mouseover(function () {
+            $(this).find("ul").css("display", "block");
+        });
+        $(".count-li-Ul,.hover").mouseout(function () {
+            $(".count-li-Ul").css("display", "none");
+        });
+
+        $(".img_hover").mousemove(function () {
+            $(this).next().css("display", "block");
+        });
+        $(".country_Box_btn").mouseout(function () {
+            $(".country_Box_btn").css("display", "none");
+        });
+
+        //选项卡切换
+        $(".switch ul li").mouseover(function (e) {
+            var sum = $(this).index();
+            $("#id  .single-switch-box").eq(sum).css("display", "block").siblings().css("display", "none");
+        });
+        //选项卡切换
+        $(".switch-to ul li").mouseover(function (e) {
+            var sum = $(this).index();
+            $("#id-to  .single-switch-box").eq(sum).css("display", "block").siblings().css("display", "none");
+        });
+
+    </script>
+</body>
+
+</html>

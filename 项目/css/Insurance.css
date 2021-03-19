@@ -1,0 +1,558 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: 30px;
+    width: 100%;
+    background-color: #323232;
+}
+/* 顶部导航栏 */
+#nav-top{
+    width: 100%;
+    height: 30px;
+}
+/* 顶部导航条logo */
+#nav-list-img{
+    display: inline-block;
+    width: 70%;
+    vertical-align: text-top;
+}
+/* 顶部左边导航 */
+#nav-left{
+    float: left;
+    font-size: 14px;
+    margin-left: 18px;
+    width: 60%;
+}
+/* 顶部左边导航logo盒子 */
+#nav-left-img{
+    height: 30px;
+    float: left;
+}
+/* 顶部左边导航logo样式 */
+#nav-left-img img{
+    height: 100%;
+    vertical-align: top;
+}
+/* 顶部左边导航的li样式 */
+.nav-list{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 86px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-top: 4px;
+}
+#nav-right{
+    float: right;
+    margin-right: 15px;
+}
+/* 顶部右边导航的li样式 */
+.nav-list-right{
+    list-style: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 26px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-top: 4px;
+    margin-left: 10px;
+}
+.nav-list-right1{
+    list-style: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 86px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-top: 4px;
+
+}
+/* 顶部左边、右边导航的li标签里的a样式 */
+.nav-list a{
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 16px;
+    display: inline-block;
+    width: 86px;
+    height: 30px;
+}
+.nav-list-right1 a:hover{
+    color: #10b041;
+}
+.nav-list-right a{
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 16px;
+    display: inline-block;
+    width: 26px;
+    height: 30px;
+}
+.nav-list-right1 a{
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 16px;
+    display: inline-block;
+    width: 86px;
+    height: 30px;
+}
+/* 顶部导航二级菜单ul样式 */
+.none{
+    display: none;
+    background-color: #fff;
+    width: 160px;
+}
+/* 顶部二级菜单li样式 */
+.none li{
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+
+}
+/* 顶部二级菜单中的a标签样式 */
+.none li a{
+    color: #979797;
+    width: 100%;
+    height: 42.2px;
+    text-align: center;
+
+}
+/* 顶部二级菜单伪类 */
+.none li:hover{
+    background-color: #E3FAE1;
+}
+/* 下面是二级菜单中旅行论坛的二级菜单 */
+#plate{
+    width: 600px;
+    height: 352px;
+    background-color: #fff;
+    position: relative;
+    top: -41px;
+    left: 158px;
+    padding: 12px;
+}
+#plate-top{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    color: #979797;
+}
+/* =============================================================分界线================================================== */
+/* 顶部导航条下面的导航栏 */
+#nav2{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(180deg,#44c77b,#0fbfa6);
+}
+/* 导航栏居中内容 */
+#nav2-count{
+    width: 1160px;
+    height: 50px;
+    margin: 0 auto;
+}
+/* 导航栏中的li标签 */
+.count-li{
+    list-style: none;
+    float: left;
+}
+.count-li a{
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* 给导航栏部分内容添加伪类 */
+.hover:hover{
+    background-color:#12af7e ;
+}
+/* li标签的二级菜单 */
+.count-li-Ul{
+    display: none;
+    position: absolute;
+    top: 80px;
+    width: 240px;
+    height: auto;
+    padding: 5px 5px 10px 25px;
+    box-shadow: 0 0 18px rgb(0 0 0 / 20%);
+    background-color: #333;
+}
+.count-li-Ul li{
+    float: left;
+    list-style: none;
+}
+.count-li-Ul li a:hover{
+    color: #10b041;
+}
+/* 穷游商城+搜索框、订单、收藏 */
+#QYshoping{
+    width: 100%;
+    height: 72px;
+}
+/* 居中内容 */
+#QYshoping #QYs-count{
+    width: 1160px;
+    height: 72px;
+    margin: 0 auto;
+
+}
+/* 设置穷游商城字体 */
+#tfont{
+    display: inline;
+    height: 72px;
+    font-size: 28px;
+    line-height: 72px;
+}
+#tfont a{
+    color: #00b081;
+    text-decoration: none;
+}
+
+#sousuodiv{
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 30px;
+}
+
+ /* 设置输入框 */
+#shurukuang{
+    height: 38px;
+    padding: 0 25px;
+    border: 1px solid #13af7e;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+
+/* 搜索按钮 */
+ #sousuo{
+    width: 60px;
+    height: 38px;
+    background-color: #13af7e;
+    font-size: 16px;
+    border: none;
+    outline: none;
+} 
+#sousuo:hover{
+    background-color: #119e71;
+    cursor: pointer;
+} 
+/* 我的订单、收藏DIV */
+#My{
+    height: 72px;
+    float: right;
+}
+#My ul li{
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    line-height: 72px;
+}
+#My ul li a{
+    text-decoration: none;
+    color: #10b041;
+}
+#My ul li a:hover{
+    color: #0d7957;
+}
+/* =====================================================分界线============================================== */
+section{
+    width: 1160px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #636363;
+}
+/* =====================================================分界线============================================== */
+/* 广告 */
+.section-toptitle{
+    width: 100%;
+    height: 340px;
+    background-image: url(../img/保险.jpg);
+}
+/* =====================================================分界线============================================== */
+/* 购买流程部分 */
+#section-title{
+    font-size: 36px;
+    line-height: 36px;
+    color: #323232;
+    font-weight: 700;
+    margin-top: 30px;
+}
+#section-title>span>a{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    background-color: #00b081;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+}
+#section-title-ul{
+    width: 100%;
+    height: 70px;
+    margin-top: 40px;
+}
+#section-title-ul>li{
+    list-style: none;
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+#section-title-ul li img{
+    vertical-align: middle;
+}
+.section-xiayibu_img{
+    width: 120px;
+}
+/* =====================================================分界线============================================== */
+/* 综合保障 */
+.section-title{
+    font-size: 36px;
+    line-height: 36px;
+    color: #323232;
+    font-weight: 700;
+    margin-top: 110px;
+}
+.switch-Box{
+    width: 1160px;
+    height: 350px;
+}
+.switch>ul,.switch-to>ul{
+    width: 100%;
+    height: 34px;
+    margin-top: 20px;
+}
+.switch>ul>li,.switch-to>ul>li{
+    float: left;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 9px 11px;
+    margin-right: 20px;
+    color: #636363;
+    position: relative;
+    list-style: none;
+}
+.switch>ul>li:hover,.switch-to>ul>li:hover{
+    color: #fff;
+    background-color: #2fbf9f;
+    cursor: pointer;
+}
+.switch-right-li a{
+    text-decoration: none;
+    color: #636363;
+    position: relative;
+}
+
+/* 单个切换大盒子 */
+.single-switch-box{
+    width: 100%;
+    height: 320px;
+}
+/* 小盒子 */
+.minBox{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    float: left;
+    margin: 6px;
+}
+.minBox img:hover{
+    box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+    opacity: 0.8;
+}
+.minBox dd>span{
+    margin-left: 4px;
+    color: #323232;
+    font-size: 14px;
+    height: 25px;
+    display: inline-block;
+}
+.minBox dd>span:hover{
+    color: #10b041;
+}
+.minBox h3{
+    width: 275px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 400;
+    overflow: hidden;
+}
+.minBox_img-text{
+    position: absolute;
+    width: 100%;
+    top: 147px;
+    height: 38px;
+    line-height: 38px;
+    background-color: rgba(0,0,0,.5);
+    color: #E3FAE1;
+}
+.minBox_img-text p{
+    font-size: 16px;
+    line-height: 38px;
+    color: #fff;
+    padding: 0 12px;
+    overflow: hidden;
+    float: left;
+}
+.minBox_img-text-price{
+    font-weight: 700;
+    font-size: 24px;
+}
+.minBox>dt{
+    width: 275px;
+    height: 186px;
+}
+.minBox dt img{
+    display: inline-block;
+    width: 100%;
+}
+#id,#id-to{
+    height: 322px;
+    overflow: hidden;
+}
+/* 保险精选 */
+.section-botton-textbox{
+    width: 277px;
+    height: 266px;
+    float: left;
+    margin: 6px;
+    background-image: linear-gradient(180deg,#61d482,#15cbb3);
+    color: #fff;
+}
+.section-botton-textbox>h1{
+    font-size: 36px;
+    line-height: 36px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.section-botton-textbox>h4{
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+.section-botton-textbox>ul li{
+    padding-bottom: 15px;
+    margin-left: 45px;
+}
+/* =====================================================分界线============================================== */
+/* 底部导航 */
+.section-nav-section-bottom{
+    width: 1160px;
+    line-height: 1;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    margin-top: 40px;
+}
+.section-nav-section-bottom ul{
+    height: 140px;
+}
+.section-nav-section-bottom ul li{
+    float: left;
+    list-style: none;
+}
+.section-nav-section-bottom-font{
+    width: 120px;
+}
+.section-nav-section-bottom ul li a{
+    text-decoration: none;
+    color: #323232;
+    font-size: 18px;
+}
+.section-nav-section-bottom ul li a:hover{
+    color: #10b041;
+}
+
+
+
+
+/* =====================================================分界线============================================== */
+/* 页脚 */
+#footer{
+    min-width: 1160px;
+    background-color: #333;
+    color: silver;
+    padding: 48px 0;
+}
+/* 用于居中底部内容 */
+#footer-buttom{
+    width: 1160px;
+    margin: 0 auto;
+}
+#footer-top{
+    width: 100%;
+    overflow: hidden;
+}
+/* 设置底部“穷游商城”字体 */
+#footer-top_txt_left{
+    float: left;
+    margin-right: 25px;
+    font-size: 40px;
+    color: #fff;
+    line-height: 50px;
+}
+/* 穷游商城字体下一个P标签 */
+#footer-top_txt-count{
+    float: left;
+    width: 540px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#footer-footer{
+    padding-top: 46px;
+}
+/* 底部关于穷游商城、联系我们的ul */
+#footer-footer-ul{
+    overflow: hidden;
+}
+#footer-footer-ul li{
+    list-style: none;
+    float: left;
+    margin: 0px 20px;
+    font-size: 14px;
+    color: #959595;
+}
+#footer-footer-ul li a{
+    text-decoration: none;
+    color: #959595;
+}
+#footer-footer-ul li a:hover{
+    color: #10b041;
+    cursor: pointer;
+}
+/* 最底下的文字设置 */
+#footer-footer-Text{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #959595;
+}
